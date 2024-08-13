@@ -22,3 +22,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 // Define your API routes here
 Route::post('/chatbot', [ChatbotController::class, 'store']);
 Route::get('/chatbot', [ChatbotController::class, 'index']);
+Route::get('/chatbots/session/{id}', [ChatbotController::class, 'getSession']);
