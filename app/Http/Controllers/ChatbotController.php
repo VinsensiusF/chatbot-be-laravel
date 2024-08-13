@@ -67,6 +67,25 @@ class ChatbotController extends Controller
             return 'The current time is ' . date('H:i') . '.';
         } elseif (strpos($message, 'date') !== false) {
             return 'Today is ' . date('Y-m-d') . '.';
+        } elseif (strpos($message, 'day of the week') !== false) {
+            return 'Today is ' . date('l') . '.';
+        } elseif (strpos($message, 'latitude') !== false) {
+            // Assuming you have access to the latitude; for example, use a placeholder
+            $latitude = '52.520'; // Example latitude
+            return 'Your current latitude is ' . $latitude . '.';
+        } elseif (strpos($message, 'longitude') !== false) {
+            // Assuming you have access to the longitude; for example, use a placeholder
+            $longitude = '13.405'; // Example longitude
+            return 'Your current longitude is ' . $longitude . '.';
+        } elseif (strpos($message, 'weather') !== false) {
+            // You could integrate with a weather API, but here's a placeholder response
+            return 'The current weather is sunny with a temperature of 25°C.';
+        } elseif (strpos($message, 'random number') !== false) {
+            return 'Here is a random number: ' . rand(1, 100) . '.';
+        } elseif (strpos($message, 'current month') !== false) {
+            return 'The current month is ' . date('F') . '.';
+        } elseif (strpos($message, 'year') !== false) {
+            return 'The current year is ' . date('Y') . '.';
         } else {
             return 'Sorry, I did not understand that. Can you please rephrase?';
         }
