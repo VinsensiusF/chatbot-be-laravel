@@ -64,6 +64,7 @@ class ChatbotController extends Controller
         } elseif (strpos($message, 'your name') !== false) {
             return 'I am your virtual assistant. How can I assist you today?';
         } elseif (strpos($message, 'time') !== false) {
+            date_default_timezone_set('Asia/Jakarta');
             return 'The current time is ' . date('H:i') . '.';
         } elseif (strpos($message, 'date') !== false) {
             return 'Today is ' . date('Y-m-d') . '.';
