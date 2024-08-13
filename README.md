@@ -21,6 +21,7 @@ Pertama, clone repository ini ke direktori lokal Anda:
 git clone https://github.com/VinsensiusF/chatbot-laravel.git
 cd chatbot-laravel
 ```
+![Alt text](public/images/clone.png)
 
 ### 2. Install Dependency PHP dengan Composer
 Jalankan perintah berikut untuk menginstal semua dependency PHP yang diperlukan:
@@ -28,6 +29,9 @@ Jalankan perintah berikut untuk menginstal semua dependency PHP yang diperlukan:
 ```bash
 composer install
 ```
+![Alt text](public/images/install1.png)
+Hasil composer install akan selesai seperti gambar dibawah:
+![Alt text](public/images/install2.png)
 
 Kemudian, buatlah file .env dan masukkan code berikut:
 
@@ -114,13 +118,21 @@ Setelah database dibuat, lakukan migrasi untuk membuat tabel database dengan cod
 ```bash
 php artisan migrate
 ```
+![Alt text](public/images/migrate.png)
+
+Pembuatan Koneksi:
+![Alt text](public/images/connection.png)
+Pembuatan Database:
+![Alt text](public/images/database.png)
 
 ### 4. Menjalankan Aplikasi
 Jalankan server pengembangan Laravel dengan perintah berikut:
 ```bash
 php artisan serve
 ```
+![Alt text](public/images/serve.png)
 Jalankan code berikut untuk mendapatkan list Endpoint yang dapat digunakan:
 ```bash
 php artisan route:list
 ```
+![Alt text](public/images/route.png)
