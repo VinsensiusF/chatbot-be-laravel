@@ -144,3 +144,13 @@ Jalankan code berikut untuk mendapatkan list Endpoint yang dapat digunakan:
 php artisan route:list
 ```
 ![Alt text](public/images/route.png)
+
+### 5. Video Tutorial
+Tautan video dibawah merupakan tutorial untuk menjalankan Aplikasi Chatbot - Laravel (Front End). Klik video dibawah untuk berpindah ke laman YouTube dan melihat tutorial!
+
+[How To Run The Chatbot - Laravel Application](https://youtu.be/QIo3FB73biE)
+
+
+Tautan video dibawah merupakan tutorial untuk menjalankan Aplikasi Fungsional (UI Setelah Front End dan Back End telah berjalan). Klik video dibawah untuk berpindah ke laman YouTube dan melihat tutorial!
+
+[How to run the User Interface of Chatbot Application](https://youtu.be/hI1hOTrrHNo)
