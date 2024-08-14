@@ -33,7 +33,15 @@ composer install
 Hasil composer install akan selesai seperti gambar dibawah:
 ![Alt text](public/images/install2.png)
 
-Kemudian, buatlah file .env dan masukkan code berikut:
+Kemudian, buatlah file .env dengan code berikut:
+```bash
+touch .env
+```
+Lalu, Edit file .env tersebut:
+```bash
+nano .env
+```
+Masukkan code berikut pada file .env:
 
 ```bash
 APP_NAME=Laravel
